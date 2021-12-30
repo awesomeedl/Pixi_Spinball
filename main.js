@@ -21,11 +21,11 @@ function build()
     const orb2 = new PIXI.Sprite(orbLight);
     const orb3 = new PIXI.Sprite(orbNature);
 
-    container.addChild(orb1);
+    orbContainer.addChild(orb1);
     orb1.x = 0;
-    container.addChild(orb2);
+    orbContainer.addChild(orb2);
     orb2.x = 100;
-    container.addChild(orb3);
+    orbContainer.addChild(orb3);
     orb3.x = 200;
 }
 
